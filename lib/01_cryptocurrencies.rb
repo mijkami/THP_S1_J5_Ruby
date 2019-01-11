@@ -26,7 +26,7 @@ puts "3. Il y a #{coin} crypto-monnaies contenant le mot 'coin' sans leur nom."
 
 #Quelles sont les devises dont le cours est inférieur à 6000$ ?
 selection = my_hash.select{|key, value| value <= 6000}
-puts "4. Il y a #{selection.count} crypto-monnaie ayant un cours inférieur a 6000$."
+puts "4. Il y a #{selection.count} crypto-monnaies ayant un cours inférieur a 6000$."
 #puts "[bonus 4.2] Voulez-vous le détail des crypto-monnaies dont le cours est inférieur à 6000$ ?"
 #puts selection
 
