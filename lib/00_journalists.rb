@@ -70,9 +70,9 @@ def menu
     when 8
         puts shortest(journa)
     when 9
-        puts "Qui cherchez vous ?"
+        puts "Qui cherchez-vous ?"
         print "> "
-        puts "Ce(tte) journaliste occupe la position #{pos(journa,gets.chomp)}"
+        puts "Ce(tte) journaliste occupe la position #{pos(journa,gets.chomp)} sur #{size(journa)}."
     end
 end
 
