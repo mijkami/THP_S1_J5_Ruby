@@ -33,4 +33,4 @@ puts "4. Il y a #{selection.count} crypto-monnaies ayant un cours inférieur a 6
 #Quelle est la devise la plus chère parmi celles dont le cours est inférieur à 6000$ ?
 max_key_6000 = selection.key(selection.values.max)
 max_value_6000 = selection[selection.key(selection.values.max)]
-puts "5. La crypto ayant la plus grande valeur inférieure a 6000$ est #{max_key_6000} et vaut #{max_value_6000}$."
+puts "5. La crypto-monnaie ayant la plus grande valeur inférieure a 6000$ est #{max_key_6000} et vaut #{max_value_6000}$."
